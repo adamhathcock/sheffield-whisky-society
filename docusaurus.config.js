@@ -2,8 +2,8 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const {themes} = require('prism-react-renderer')
-const lightCodeTheme = themes.gruvboxMaterialDark;
-const darkCodeTheme = themes.vsDark;
+const lightCodeTheme = themes.duotoneLight;
+const darkCodeTheme = themes.duotoneDark;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -46,6 +46,9 @@ const config = {
           authorsMapPath: 'authors.yml',
           showReadingTime: true,
         },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
       }),
     ],
   ],
@@ -58,7 +61,7 @@ const config = {
         title: 'Sheffield Whisky Society',
         logo: {
           alt: 'Sheffield Whisky Society Logo',
-          src: 'logo.png',
+          src: 'logo.jpg',
         },
         items: [
           {
