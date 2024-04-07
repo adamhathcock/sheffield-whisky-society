@@ -68,12 +68,6 @@ const config = {
             to: '/news', 
             label: 'News', 
             position: 'left'
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Docs',
           }
         ],
       },
