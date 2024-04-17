@@ -73,7 +73,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} Sheffield Whisky Society. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Sheffield Whisky Society.  <a href="mailto:hello@steeldram.com">Contact Us.</a>`,
       },
       prism: {
         theme: lightCodeTheme,
