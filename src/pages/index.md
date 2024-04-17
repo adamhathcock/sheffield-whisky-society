@@ -6,4 +6,6 @@ hide_table_of_contents: true
 
 ![Logo](logo.jpg)
 
+To get together and share a dram in the steel city
+
 </center>
