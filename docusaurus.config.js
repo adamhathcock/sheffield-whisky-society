@@ -68,6 +68,11 @@ const config = {
             to: '/news', 
             label: 'News', 
             position: 'left'
+          },
+          {
+            to: '/docs/links', 
+            label: 'Links', 
+            position: 'left'
           }
         ],
       },
